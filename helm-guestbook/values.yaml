@@ -8,7 +8,7 @@ guestbook:
   pullPolicy: IfNotPresent
 
 nginx:
-  image: 
+  image: adityatanwar03/nginx
   tag: 0.1
   pullPolicy: IfNotPresent
 
