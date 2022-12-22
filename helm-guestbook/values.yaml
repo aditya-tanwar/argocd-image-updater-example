@@ -9,7 +9,7 @@ guestbook:
 
 nginx:
   image: adityatanwar03/nginx
-  tag: 1.0
+  tag: 0.1
   pullPolicy: IfNotPresent
 
 service:
