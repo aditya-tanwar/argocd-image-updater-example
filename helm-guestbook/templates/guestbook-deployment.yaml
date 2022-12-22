@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: guestbook
-        image: "{{ .Values.guestbook.image }}:{{ .Values.guestbook.tag }}"
+        image: "{{ .Values.guestbook.image.repository }}:{{ .Values.guestbook.image.tag }}"
         imagePullPolicy: {{ .Values.guestbook.pullPolicy }}
         ports:
         - containerPort: 80
