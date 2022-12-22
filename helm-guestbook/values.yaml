@@ -7,7 +7,8 @@ guestbook:
     tag: 0.1
     pullPolicy: Always
 
-image:
+nginx:
+  image:
     repository: adityatanwar03/nginx
     tag: 0.1
     pullPolicy: Always
