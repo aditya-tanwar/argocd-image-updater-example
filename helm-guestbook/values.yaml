@@ -5,12 +5,16 @@
 guestbook:
   image: adityatanwar03/argohelmappmultipleimage
   tag: 0.1
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 nginx:
   image: adityatanwar03/nginx
   tag: 0.1
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
 
 service:
   type: ClusterIP
