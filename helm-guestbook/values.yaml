@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 guestbook:
-  image: gcr.io/heptio-images/ks-guestbook-demo
+  image: adityatanwar03/argohelmappmultipleimage
   tag: 0.1
   pullPolicy: IfNotPresent
 
