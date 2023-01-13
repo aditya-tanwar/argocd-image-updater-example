@@ -19,7 +19,7 @@ spec:
   source:
     repoURL: https://github.com/aditya-tanwar/argocd-image-updater-example.git
     targetRevision: HEAD
-    path: ./helm-app
+    path: ./helm-guestbook
   destination:
     server: https://kubernetes.default.svc
     namespace: myapp
