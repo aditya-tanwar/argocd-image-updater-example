@@ -4,12 +4,12 @@ metadata:
   name: argo-application
   namespace: argocd
   annotations:
-    argocd-image-updater.argoproj.io/guestbook.force-update: true
+    argocd-image-updater.argoproj.io/guestbook.force-update: 'true'
     argocd-image-updater.argoproj.io/guestbook.helm.image-name: guestbook.repository
     argocd-image-updater.argoproj.io/guestbook.helm.image-tag: guestbook.tag
     argocd-image-updater.argoproj.io/guestbook.update-strategy: digest
     argocd-image-updater.argoproj.io/image-list: nginx=adityatanwar03/nginx:0.1, guestbook=adityatanwar03/argohelmappmultipleimage:0.1
-    argocd-image-updater.argoproj.io/nginx.force-update: true
+    argocd-image-updater.argoproj.io/nginx.force-update: 'true'
     argocd-image-updater.argoproj.io/nginx.helm.image-name: nginx.image.repository
     argocd-image-updater.argoproj.io/nginx.helm.image-tag: nginx.image.tag
     argocd-image-updater.argoproj.io/nginx.update-strategy: digest
