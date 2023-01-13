@@ -13,6 +13,7 @@ metadata:
     argocd-image-updater.argoproj.io/nginx.helm.image-name: nginx.image.repository
     argocd-image-updater.argoproj.io/nginx.helm.image-tag: nginx.image.tag
     argocd-image-updater.argoproj.io/nginx.update-strategy: digest
+    argocd-image-updater.argoproj.io/write-back-method: git
 spec:
   project: default
   source:
